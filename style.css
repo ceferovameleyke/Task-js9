@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.smalikler{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.smalikler > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.size{
+    font-size: 60px;
+}
+.margin{
+    font-size: 30px;
+}
+.map{
+    font-size:60px ;
+}
+.close{
+    font-size:60px ;
+}
+button{
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+   
+}
